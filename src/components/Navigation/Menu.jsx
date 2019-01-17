@@ -1,8 +1,9 @@
 import React from 'react'
+import { Button } from '../Button/Button';
 
 const Menu = props => {
     return (
-        <button>Menu</button>
+        <Button name="Menu" styleClass="button button--menu" />
     )
 }
 

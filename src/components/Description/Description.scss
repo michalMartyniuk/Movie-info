@@ -1,0 +1,11 @@
+.description {
+    margin-top: 30px;
+    border: 1px solid black;
+    &__buttons {
+        display: flex;
+        background-color: black;
+    }
+    &__content {
+        background-color: #fff;
+    }
+}

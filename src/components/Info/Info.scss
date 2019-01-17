@@ -1,0 +1,16 @@
+.info {
+    border: 1px solid black;
+    display: flex;
+    &__photo {
+        height: 200px;
+        border: 1px solid black;
+        flex: 1;
+        background-color: orange;
+        margin-right: 20px;
+    }
+    &__info {
+        border: 1px solid black;
+        flex: 1;
+        background-color: lightblue;
+    }
+}

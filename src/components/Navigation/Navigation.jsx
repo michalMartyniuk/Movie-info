@@ -7,8 +7,10 @@ class Navigation extends Component {
     render() {
         return (
             <nav>
-                <Menu />
-                <SearchBar />
+                <div className="wrapper wrapper--navigation">
+                    <Menu />
+                    <SearchBar />
+                </div>
             </nav>
         )
     }
