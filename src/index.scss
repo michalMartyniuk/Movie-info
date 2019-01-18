@@ -1,4 +1,13 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  background-color: $body-background;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -19,6 +28,16 @@ code {
     &--description {}
     &--info {}
     &--navigation {
+      background-color: $searchBar-background;
       display: flex;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      color: white;
     }
+}
+
+button, button:focus, input, input:focus {
+  outline: none;
+  border: none;
 }

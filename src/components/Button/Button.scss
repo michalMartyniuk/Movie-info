@@ -1,6 +1,19 @@
+@import '../../variables.scss';
+
 .button {
     &--menu {
+        background-color: $hamburgerIcon-background;
         height: 100%;
+        color: white;
     }
-    &--description {}
+    &--description {
+        color: white;
+        background-color: $description__button-background;
+        font-size: $description__button-fontSize;
+        &--active {
+            width: $description__button--active-width;
+            font-size: $description__button--active-fontSize;
+            background-color: $description__button--active-background;
+        }
+    }
 }

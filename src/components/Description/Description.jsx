@@ -10,7 +10,7 @@ class Description extends Component {
                     <div className="description__buttons">
                         <Button styleClass="button button--description" name="Imdb" />
                         <Button styleClass="button button--description" name="Filmweb" />
-                        <Button styleClass="button button--description" name="Wiki" />
+                        <Button styleClass="button button--description button--description--active" name="Wiki" />
                     </div> 
                     <div className="description__content">
                             <h2>description content here</h2>

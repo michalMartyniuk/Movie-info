@@ -1,16 +1,44 @@
+@import '../../variables.scss';
+
 .info {
+    margin-top: $info-marginTop;
+    height: $info-height;
     border: 1px solid black;
     display: flex;
     &__photo {
+        background-color: black;
         height: 200px;
         border: 1px solid black;
         flex: 1;
-        background-color: orange;
-        margin-right: 20px;
+        margin-right: $info__photo-rightMargin;
     }
-    &__info {
+    &__box {
+        width: $infoBox-width;
         border: 1px solid black;
         flex: 1;
-        background-color: lightblue;
+        background-color: $info__info-background;
+    }
+    &__title {
+        font-size: $info__title-fontSize;
+        height: $info__title-height;
+        color: white;
+        background-color: $info__title-background;
+    }
+    &__content {
+        // background-color: ;
+    }
+    &__imdb {
+        font-size: $info__imdb-fontSize;
+        height: $info__imdb-height;
+        border: 1px solid black;
+        background-color: $info__imdb-background;
+        color: $info__imdb-fontColor;
+    }
+    &__filmweb {
+        font-size: $info__filmweb-fontSize;
+        height: $info__filmweb-height;
+        border: 1px solid black;
+        background-color: $info__filmweb-background;
+        color: $info__filmweb-fontColor;
     }
 }

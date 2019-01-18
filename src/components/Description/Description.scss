@@ -1,9 +1,12 @@
+@import '../../variables.scss';
+
 .description {
-    margin-top: 30px;
+    background-color: #fff;
+    height: 100vh;
+    margin-top: $description-marginTop;
     border: 1px solid black;
     &__buttons {
         display: flex;
-        background-color: black;
     }
     &__content {
         background-color: #fff;

@@ -1,6 +1,13 @@
+@import '../../variables.scss';
+
 .search-bar {
-    &__label {}
-    &__input {}
+    margin-left: auto;
+    &__label {
+        font-size: $searchBar-fontSize;
+    }
+    &__input {
+        height: $search__input-height;
+    }
     &__button {
         
     }
